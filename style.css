@@ -1,11 +1,7 @@
-/* img {
-  max-width: 200px;
-} */
 .image {
   display: flex;
   padding: 30px;
   padding-left: 50px;
-  /* background-color: grey; */
   justify-content: center;
 }
 .myTable {
@@ -22,13 +18,8 @@ body {
   background-color: rgb(84, 145, 153);
 }
 .city {
-  flex-wrap: wrap;
+  display: flex;
   padding: 10px;
-  margin-bottom: 15em;
-}
-
-.paris {
-  float: left;
 }
 
 .paragraph {
@@ -45,52 +36,39 @@ h2 {
 table,
 td,
 th {
-  border: 1px solid black;
+  border: 2px solid black;
   border-collapse: collapse;
   width: 800px;
   padding: 10px;
 }
-.content {
-  justify-items: center;
-  /* width: 90%; */
-}
 h3 {
   text-align: center;
 }
-/* .container {
+.container {
   display: flex;
-} */
-/* .imageBox {
-  float: left;
-} */
+}
+
 .column1 {
   flex-wrap: wrap;
   margin-right: 1em;
-  /* padding: 20px; */
-  height: 30%;
+  padding: 20px;
 }
 .column2 {
   flex-wrap: wrap;
-  /* padding: 20px; */
-  height: 30%;
+  padding: 20px;
 }
 .column3 {
   flex-wrap: wrap;
-  height: 30%;
-
-  margin-right: 1em;
+  padding: 20px;
 }
 .container {
   display: flex;
-  /* background-color: grey; */
 }
 .imageBox {
+  float: right;
   padding: 20px;
 }
-#paris {
-  max-width: 600px;
-  height: 300px;
-}
+
 h1,
 h2,
 h3 {
